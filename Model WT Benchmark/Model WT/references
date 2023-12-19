@@ -1,0 +1,44 @@
+** Bianchi model:
+
+@book{bianchi2007wind,
+  title={Wind turbine control systems: principles, modelling and gain scheduling design},
+  author={Bianchi, Fernando D and De Battista, Hernan and Mantz, Ricardo J},
+  volume={19},
+  year={2007},
+  publisher={Springer}
+}
+
+Equation 6.1
+Pages 116
+
+
+** Simani model:
+
+@book{simani2018fault,
+  title={Fault Diagnosis and Sustainable Control of Wind Turbines: Robust data-driven and model-based strategies},
+  author={Simani, Silvio and Farsoni, Saverio},
+  year={2018},
+  publisher={Butterworth-Heinemann}
+}
+
+Equations (2.37) - (2.39)
+Pages  30-31, 149-162
+
+
+** Controller:
+
+@article{johnson2006control,
+  title={Control of variable-speed wind turbines: standard and adaptive techniques for maximizing energy capture},
+  author={Johnson, Kathryn E and Pao, Lucy Y and Balas, Mark J and Fingersh, Lee J},
+  journal={IEEE Control Systems Magazine},
+  volume={26},
+  number={3},
+  pages={70--81},
+  year={2006},
+  publisher={IEEE}
+}
+
+
+
+
+

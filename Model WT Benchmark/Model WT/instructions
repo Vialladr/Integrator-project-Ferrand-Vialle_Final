@@ -1,0 +1,10 @@
+To run a simulation:
+
+1. Choose Bianchi or Simani's model*
+2. Run the chosen model**
+3. Run the simulink file***
+
+
+* Parameters and model found in the reference
+** "benchmark_model_chosen.m"
+*** "benchmark_simani_generator.mdl" Version Matlab 2021b
