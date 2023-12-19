@@ -23,12 +23,12 @@ In OpenFAST, each model has several configuration files which correspond to a sp
 ![architecture openfast](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle/assets/146111332/1fcff325-8421-490b-a675-e5a940452236)
 
 * model.**fst** : It is the main input file of the model. From there you regroup all the others input files, and choose general paramters like simulation time, time step, environmental conditions, etc.
-* model_**Aerodyn.dat** :
-* model_**InflowWind.dat** :
+* model_**Aerodyn.dat** : It regroups all the aerodynamic parameters and the corresponding files.
+* model_**InflowWind.dat** : It regroups all 
 * model_**ElastoDyn.dat** :
 * model_**ServoDyn.dat** :
 
-
+For each of this input files, you can write the outputs you want in the sectio "Outputs", generally at the bottom of the file. You cannot put any outputs in any files. For example, outputs linked to the generator are to be written in ServoDyn file, while outputs linked to wind are to be written in InflowWind file.
 
 
 
