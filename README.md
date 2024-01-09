@@ -19,8 +19,8 @@ A list of technologies used within the project:
 * [OpenFast](https://github.com/OpenFAST/openfast/releases/tag/v3.5.0): Version 3.5.0 
 * [TurbSim](https://www.nrel.gov/wind/nwtc/turbsim.html): Version 2.0.0
 * [PyDatView](https://github.com/ebranlard/pyDatView): Version 0.4
-* [matlab-toolbox](https://github.com/OpenFAST/matlab-toolbox).
 * [Matlab](https://fr.mathworks.com/products/new_products/release2021b.html): Version 9.11.0.1769968 (R2021b)
+* [matlab-toolbox](https://github.com/OpenFAST/matlab-toolbox).
   
 ## Our files and Installation
 From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf).
