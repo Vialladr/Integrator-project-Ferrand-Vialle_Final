@@ -1,7 +1,7 @@
 
 ## Turbsim
 
-We learn how to use it [here](https://www.youtube.com/watch?v=UTsR-feCNhc), youtube video where someone show how to configure and run it. You can also use documentation and explaination from the git or the website.
+We learn how to use it [here](https://www.youtube.com/watch?v=UTsR-feCNhc), youtube video where someone show how to configure and run it. You can also use documentation and explaination from the [TurbSim web site](https://nwtc.nrel.gov/TurbSim).
 
 ## How TurbSim works:
 
@@ -25,6 +25,8 @@ This synthetic data generation capability is crucial for testing and validating 
 A stochastic, full-field, turbulence simulator, primarialy for use with [InflowWind](https://nwtc.nrel.gov/InflowWind "InflowWind")-based simulation tools 
 
 ![turbsim2](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/e744aeef-514b-4f47-9809-73f095821b09)
+
+When it finished to run it gives you a file .bts if the .inp file has been configured correctly. You have to take it, place it in the folder of your model and put the link of the file in the inflowind.dat in the category *Parameters for Binary TurbSim Full-Field files* 
 
 For more information, please refer to documentation on the [TurbSim web site](https://nwtc.nrel.gov/TurbSim).
 
