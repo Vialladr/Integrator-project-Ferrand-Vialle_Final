@@ -14,6 +14,13 @@ OpenFAST is an open source tool and all its features can be found [here](https:/
 2. [General parameters and outputs configuration](#general-parameters-and-outputs-configuration)
 3. [Simulation with Matlab/Simulink](#simulation-with-matlab)
 
+
+  
+## Our files and Installation
+From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf).
+There is a first folder called WP_baseline which contains general parameters and inputs of the wind turbine model like tower and blades structure, airfoils, or wind files.
+Then different variations of this model are proposed. We choose the WP_VSP_WTurb model.
+
 ### Versions
 A list of technologies used within the project:
 * [OpenFast](https://github.com/OpenFAST/openfast/releases/tag/v3.5.0): Version 3.5.0 
@@ -21,13 +28,6 @@ A list of technologies used within the project:
 * [PyDatView](https://github.com/ebranlard/pyDatView): Version 0.4
 * [Matlab](https://fr.mathworks.com/products/new_products/release2021b.html): Version 9.11.0.1769968 (R2021b)
 * [matlab-toolbox](https://github.com/OpenFAST/matlab-toolbox).
-  
-## Our files and Installation
-From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf).
-There is a first folder called WP_baseline which contains general parameters and inputs of the wind turbine model like tower and blades structure, airfoils, or wind files.
-Then different variations of this model are proposed. We choose the WP_VSP_WTurb model.
-
-
 
 ## General parameters and outputs configuration
 In OpenFAST, each model has several configuration files which correspond to a specific part in the architecture model (sse the figure below). 
