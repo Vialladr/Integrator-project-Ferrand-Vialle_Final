@@ -63,6 +63,11 @@ Here are all the outputs that we chose for the project :
 The goal of the project was to use Matlab and Simulink with Openfast to easily integrate automatic control algorithm for the wind turbine, in our case, Degradation Aware Control (DAC).
 Here will be explained our very basic Matlab and Simulink files to explain how to run the simulation.
 
+First the most important things to know is how set the simulation time. to do that you have to change it into the model file .fst (in our case WP_VSP_WTurb.fst) the Total run time. It has to be the same as in the file.m from which the simulation is run.
+
+To display all outputs and plot the associated figures, you can directly use the matlab toolbox available in the tools menu. simply run *PlotFASToutput({['C:\*link..\file.outb]},{'SFunc','exe'});* command. An example is available [here](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/blob/main/openfast-main/glue-codes/simulink/examples/Run_Test_control_Openfast.m)
+
+
 
 
 
