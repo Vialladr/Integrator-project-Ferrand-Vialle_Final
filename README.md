@@ -17,7 +17,7 @@ OpenFAST is an open source tool and all its features can be found [here](https:/
 ### Versions
 A list of technologies used within the project:
 * [OpenFast](https://github.com/OpenFAST/openfast/releases/tag/v3.5.0): Version 3.5.0 
-* [TurbSim]([https://example.com](https://www.nrel.gov/wind/nwtc/turbsim.html)): Version 2
+* [TurbSim]([https://example.com](https://www.nrel.gov/wind/nwtc/turbsim.html)): Version 2.0.0
 * [PyDatView]([https://example.com](https://github.com/ebranlard/pyDatView)): Version 0.4
 * [matlab-toolbox]([https://example.com](https://github.com/OpenFAST/matlab-toolbox)).
   
