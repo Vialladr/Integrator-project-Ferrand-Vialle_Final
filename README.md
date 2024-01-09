@@ -17,7 +17,7 @@ OpenFAST is an open source tool and all its features can be found [here](https:/
 
   
 ## Our files and Installation
-From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf).
+From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf). You can aslo find a lot of its parameters in this [file](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/blob/main/WindPACT_1.5MW.xlsx).
 There is a first folder called WP_baseline which contains general parameters and inputs of the wind turbine model like tower and blades structure, airfoils, or wind files.
 Then different variations of this model are proposed. We choose the WP_VSP_WTurb model.
 
