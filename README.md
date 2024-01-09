@@ -11,10 +11,15 @@ OpenFAST is an open source tool and all its features can be found [here](https:/
 
 ## Table of Contents
 1. [Our files and Installation](#our-files-and-installation)
-3. [General parameters and outputs configuration](#general-parameters-and-outputs-configuration)
+2. [General parameters and outputs configuration](#general-parameters-and-outputs-configuration)
+3. [Simulation with Matlab/Simulink](#simulation-with-matlab)
 
-
-
+### Versions
+A list of technologies used within the project:
+* [Technologie name](https://example.com): Version 12.3 
+* [Technologie name](https://example.com): Version 2.34
+* [Library name](https://example.com): Version 1234
+  
 ## Our files and Installation
 From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf).
 There is a first folder called WP_baseline which contains general parameters and inputs of the wind turbine model like tower and blades structure, airfoils, or wind files.
@@ -37,8 +42,10 @@ You can find the files described below [here](https://github.com/Vialladr/Integr
 For each of this input files, you can write the outputs you want in the section "Outputs", generally at the bottom of the file. You cannot put any outputs in any files. For example, outputs linked to the generator are to be written in ServoDyn file, while outputs linked to wind are to be written in InflowWind file.
 
 
+## Simulation with Matlab
 
-
+The goal of the project was to use Matlab and Simulink with Openfast to easily integrate automatic control algorithm for the wind turbine, in our case, Degradation Aware Control (DAC).
+Here will be explained our very basic Matlab and Simulink files to explain how to run the simulation.
 
 
 
