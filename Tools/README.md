@@ -5,10 +5,3 @@ This folder contains the tools we've used to complement the Openfast model. The 
 ## Installation
 In each folder you can find explaination on how to get and install each tool
 
-Turbsim from NREL :
-
-![NREL](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/324a6c1f-f0b8-44ad-8df0-8b7a36aa0ca2)
-
-Pydatview : 
-
-![PlotPDF](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/69309b1b-ced6-4922-b8f3-461f2401d2e9)
