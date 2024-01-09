@@ -1,12 +1,10 @@
-[![Build status](https://github.com/ebranlard/pyDatView/workflows/Tests/badge.svg)](https://github.com/ebranlard/pyDatView/actions?query=workflow%3A%22Tests%22)
-
 # pyDatView
 
 A crossplatform GUI to display tabulated data from files or python pandas dataframes. It's compatible Windows, Linux and MacOS, with python 3. Some of its features are: multiples plots, FFT plots, probability plots, export of figures...
 The file formats supported, are: CSV files and other formats present in the [weio](http://github.com/ebranlard/weio/) library.
 Additional file formats can easily be added.
 
-![Scatter](/../screenshots/screenshots/PlotScatter.png)
+![PlotScatter](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/b192593d-0a11-4986-9e3a-c2c0d8b684c8)
 
 ## QuickStart
 For **Windows** users, an installer executable is available [here](https://github.com/ebranlard/pyDatView/releases) (look for the latest pyDatView\*.exe)
@@ -152,20 +150,20 @@ Data manipulation options:
 
 Scatter plot (by selecting `Scatter`) and several plots on the same figure:
 
-![Scatter](/../screenshots/screenshots/PlotScatter.png)
+![PlotScatter](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/b192593d-0a11-4986-9e3a-c2c0d8b684c8)
 
 <!--![OverPlot](/../screenshots/screenshots/OverPlot.png) -->
 
 Fast Fourier Transform of the signals (by selecting `FFT`) and displaying several plots using subfigures (by selecting `Subplot`). 
 
-![SubPlotFFT](/../screenshots/screenshots/SubPlotFFT.png)
+![SubPlotFFT](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/b08c6e28-f096-456d-8e0a-1ec386de78e8)
 
 Probability density function:
 
-![PlotPDF](/../screenshots/screenshots/PlotPDF.png)
+![PlotPDF](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/16aae291-8878-401d-a3bd-f8f51a124ad9)
 
 Scaling all plots between 0 and 1 (by selecting `MinMax`)
-![PlotMinMax](/../screenshots/screenshots/PlotMinMax.png)
+![PlotMinMax](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/assets/146110958/f9d49b2e-27e2-4830-9b56-b4b1842e0c36)
 
 
 
@@ -269,16 +267,9 @@ python setup.py install
 ```
 
 
-
-
-
 ## Adding more file formats
 File formats can be added by implementing a subclass of `pydatview/io/File.py`, for instance `pydatview/io/VTKFile.py`. Existing examples are found in the folder `pydatview/io`.
 Once implemented the fileformat needs to be registered in `pydatview/io/__init__.py` by adding an import line at the beginning of this script and adding a line in the function `fileFormats()` of the form `formats.append(FileFormat(VTKFile))`
 
 If you believe your fileformat will be beneficial to the wind energy community, we recommend to also add your file format to the [weio](http://github.com/ebranlard/weio/) repository.
 Follow the procedure mentioned in the README of the weio repository (in particualr adding unit tests and minimalistic example files).
-
-
-## Contributing
-Any contributions to this project are welcome! If you find this project useful, you can also buy me a coffee (donate a small amount) with the link below:
