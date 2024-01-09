@@ -39,7 +39,21 @@ You can find the files described below [here](https://github.com/Vialladr/Integr
 * model_**ElastoDyn.dat** : It regroups all the mechanical parameters (structure model, mass distribution, inertia, DoF, drivetrain, etc) and the corresponding files (blades, tower strucutre) and outputs.
 * model_**ServoDyn.dat** : It regroups all the electrical and automatic control parameters (i.e generator parameters) and the correspondind outputs.
 
-For each of this input files, you can write the outputs you want in the section "Outputs", generally at the bottom of the file. You cannot put any outputs in any files. For example, outputs linked to the generator are to be written in ServoDyn file, while outputs linked to wind are to be written in InflowWind file.
+For each of this input files, you can write the outputs you want in the section "Outputs", generally at the bottom of the file. You cannot put any outputs in any files. For example, outputs linked to the generator are to be written in ServoDyn file, while outputs linked to wind are to be written in InflowWind file. You can find all the outputs possible in this [file](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/blob/main/OutListParameters.xlsx).
+
+Here are all the outputs that we chose for the project :
+| Outputs | Description |
+| --- | --- |
+| Wind1VelX | X component of wind at user selected wind point 1 (m/s) |
+| Wind1VelY | Y component of wind at user selected wind point 1 (m/s) |
+| Wind1VelZ | Z component of wind at user selected wind point 1 (m/s) |
+| GenSpeed | Angular speed of the high-speed shaft and generator (rpm) |
+| RotSpeed | Rotor azimuth angular speed (rpm) |
+| GenTq | Electrical generator torque (kN-m) | 
+| GenPwr | Electrical generator power (kW) |
+| RtTSR | Rotor tip-speed ratio (-) |
+| QD_DrTr | Velocity of drivetrain rotational-flexibility DOF (rad/s) |
+| Q_DrTr | Displacement of drivetrain rotational-flexibility DOF (rad) |
 
 
 ## Simulation with Matlab
