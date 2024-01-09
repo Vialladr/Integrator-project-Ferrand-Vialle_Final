@@ -16,9 +16,10 @@ OpenFAST is an open source tool and all its features can be found [here](https:/
 
 ### Versions
 A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+* [OpenFast](https://github.com/OpenFAST/openfast/releases/tag/v3.5.0): Version 3.5.0 
+* [TurbSim]([https://example.com](https://www.nrel.gov/wind/nwtc/turbsim.html)): Version 2
+* [PyDatView]([https://example.com](https://github.com/ebranlard/pyDatView)): Version 0.4
+* [matlab-toolbox]([https://example.com](https://github.com/OpenFAST/matlab-toolbox)).
   
 ## Our files and Installation
 From OpenFAST models, we choose the windPACT 1.5-MW wind turbine [model](http://www.nrel.gov/docs/fy06osti/32495.pdf).
