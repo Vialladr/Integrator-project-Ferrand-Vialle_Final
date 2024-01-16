@@ -38,7 +38,7 @@ You can find the files described below [here](https://github.com/Vialladr/Integr
 * model.**fst** : It is the main input file of the model. From there you regroup all the others input files, and choose general paramters like simulation time, time step, environmental conditions, etc.
 * model_**Aerodyn.dat** : It regroups all the aerodynamic parameters of the wind turbine, outputs, and the corresponding files.
 * model_**InflowWind.dat** : It regroups all the wind parameters, outputs and the corresponding files of generated wind. 
-* model_**ElastoDyn.dat** : It regroups all the mechanical parameters (structure model, mass distribution, inertia, DoF, drivetrain, etc) and the corresponding files (blades, tower strucutre) and outputs.
+* model_**ElastoDyn.dat** : It regroups all the mechanical parameters (structure model, mass distribution, inertia, DoF, drivetrain, etc), the **initial conditions** and the corresponding files (blades, tower strucutre) and outputs.
 * model_**ServoDyn.dat** : It regroups all the electrical and automatic control parameters (i.e generator parameters) and the correspondind outputs.
 
 For each of this input files, you can write the outputs you want in the section "Outputs", generally at the bottom of the file. You cannot put any outputs in any files. For example, outputs linked to the generator are to be written in ServoDyn file, while outputs linked to wind are to be written in InflowWind file. You can find all the outputs possible in this [file](https://github.com/Vialladr/Integrator-project-Ferrand-Vialle_Final/blob/main/OutListParameters.xlsx).
