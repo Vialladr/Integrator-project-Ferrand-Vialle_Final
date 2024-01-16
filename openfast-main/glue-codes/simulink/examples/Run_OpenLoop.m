@@ -8,7 +8,7 @@
 % these variables are defined in the OpenLoop model's FAST_SFunc block:
 FAST_InputFileName = ['C:\Users\manip\Documents\Projet-Integrateur_Ferrand-Vialle' ...
     '\openfast-main\reg_tests\r-test\glue-codes\openfast\1.WP_1.5MW_IntegratorProject\WP_VSP_WTurb.fst'];
-TMax               = 30; % seconds need to modified also in WP_VSP_WTurb.fst
+TMax               = 500; % seconds need to modified also in WP_VSP_WTurb.fst
 
 sim('OpenLoop.mdl',[0,TMax]);
 
